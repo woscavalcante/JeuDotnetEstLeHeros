@@ -10,6 +10,8 @@ namespace JeuDotnetEstLeHeros.Web.UI.Controllers
     {
         public IActionResult Index()
         {
+            this.ViewBag.MonTitre = "Aventures";
+
             return View();
         }
     }
