@@ -1,10 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-
-    int[] monTableau = new int[] { 1, 2, 3, 4, 5 };
+        
 }
 
-@foreach (var item in monTableau)
+@foreach (var item in this.ViewBag.MonTableau)
 {
     <h2>
         @item
