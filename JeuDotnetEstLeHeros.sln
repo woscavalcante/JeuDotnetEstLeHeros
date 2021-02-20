@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeuDotnetEstLeHeros.Web.UI", "JeuDotnetEstLeHeros.Web.UI\JeuDotnetEstLeHeros.Web.UI.csproj", "{0CD6AFBC-0618-4FDD-A3F4-602F0791E84F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeuDotnetEstLeHeros.Web.UI", "JeuDotnetEstLeHeros.Web.UI\JeuDotnetEstLeHeros.Web.UI.csproj", "{0CD6AFBC-0618-4FDD-A3F4-602F0791E84F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemple", "Exemple", "{AD774748-B89A-444B-8F90-CD520E354890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteForEach", "DecouverteForEach\DecouverteForEach.csproj", "{FCC1C2DD-35FB-4EDA-9829-42D34862416F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{0CD6AFBC-0618-4FDD-A3F4-602F0791E84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CD6AFBC-0618-4FDD-A3F4-602F0791E84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CD6AFBC-0618-4FDD-A3F4-602F0791E84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC1C2DD-35FB-4EDA-9829-42D34862416F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC1C2DD-35FB-4EDA-9829-42D34862416F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC1C2DD-35FB-4EDA-9829-42D34862416F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC1C2DD-35FB-4EDA-9829-42D34862416F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCC1C2DD-35FB-4EDA-9829-42D34862416F} = {AD774748-B89A-444B-8F90-CD520E354890}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42BFED5C-A87C-4E42-96D9-B7F834751D6F}
