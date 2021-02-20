@@ -11,6 +11,7 @@ namespace JeuDotnetEstLeHeros.Web.UI.Controllers
         public IActionResult Index()
         {
             this.ViewBag.MonTitre = "Aventures";
+            this.ViewBag.MonTableau = new int[] { 1, 2, 3, 4, 5 };
 
             return View();
         }
