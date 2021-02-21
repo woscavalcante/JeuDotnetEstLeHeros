@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeuDotnetEstLeHeros.Web.UI"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exemple", "Exemple", "{AD774748-B89A-444B-8F90-CD520E354890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteForEach", "DecouverteForEach\DecouverteForEach.csproj", "{FCC1C2DD-35FB-4EDA-9829-42D34862416F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouverteForEach", "DecouverteForEach\DecouverteForEach.csproj", "{FCC1C2DD-35FB-4EDA-9829-42D34862416F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jeudontonestleheros.Core.Data", "jeudontonestleheros.Core.Data\jeudontonestleheros.Core.Data.csproj", "{DC4BB44E-28C0-4618-837D-1E95891AA61D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{1DFB8BC3-56C5-4E14-A4A9-015C432658B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,17 @@ Global
 		{FCC1C2DD-35FB-4EDA-9829-42D34862416F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC1C2DD-35FB-4EDA-9829-42D34862416F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC1C2DD-35FB-4EDA-9829-42D34862416F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4BB44E-28C0-4618-837D-1E95891AA61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4BB44E-28C0-4618-837D-1E95891AA61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4BB44E-28C0-4618-837D-1E95891AA61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4BB44E-28C0-4618-837D-1E95891AA61D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FCC1C2DD-35FB-4EDA-9829-42D34862416F} = {AD774748-B89A-444B-8F90-CD520E354890}
+		{DC4BB44E-28C0-4618-837D-1E95891AA61D} = {1DFB8BC3-56C5-4E14-A4A9-015C432658B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {42BFED5C-A87C-4E42-96D9-B7F834751D6F}
